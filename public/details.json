@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Eva",
+      "book": "oldTestament",
+      "text": "He was a prophet.",
+      "details": "John was known for his wisdom and leadership."
+    },
+    {
+      "name": "Jane",
+      "book": "newTestament",
+      "text": "She was a disciple.",
+      "details": "Jane played a key role in the early church."
+    },
+    {
+      "name": "Doe",
+      "book": "bookOfMormon",
+      "text": "A key figure in the Book of Mormon.",
+      "details": "Doe's contributions are significant to the faith."
+    }
+  ]
