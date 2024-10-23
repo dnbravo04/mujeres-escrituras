@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { MainTitle } from "./MainTitle";
-import { Introduction } from "./Introduction";
-import { Closure } from "./Closure";
-import TestamentComponent from "./TestamentComponent";
-import { Footer } from "./Footer";
+import { MainTitle } from "./home/MainTitle";
+import { Introduction } from "./home/Introduction";
+import { Closure } from "./home/Closure";
+import TestamentComponent from "./home/TestamentComponent";
 
 export const Home = () => {
   const [booksData, setBooksData] = useState([]);

@@ -1,6 +1,9 @@
-// src/components/Details.jsx
-import React, { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
+import Title from "./details/Title";
+import KeyConcepts from "./details/KeyConcepts";
+import Introduction from "./details/Introduction";
+import Extra from "./details/Extra";
 
 const Details = () => {
   const { characterName } = useParams();
@@ -13,13 +16,14 @@ const Details = () => {
       try {
         const response = await fetch("/details.json");
         if (!response.ok) {
-          throw new Error('Error al cargar los detalles');
+          throw new Error("Error al cargar los detalles");
         }
         const data = await response.json();
-        // Filtrar el personaje por nombre
-        const character = data.find(char => char.name.toLowerCase() === characterName.toLowerCase());
+        const character = data.find(
+          (char) => char.name.toLowerCase() === characterName.toLowerCase()
+        );
         if (!character) {
-          throw new Error('Personaje no encontrado');
+          throw new Error("Personaje no encontrado");
         }
         setCharacterDetails(character);
       } catch (error) {
@@ -37,21 +41,29 @@ const Details = () => {
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
-    <Link to={-1}>regresar</Link>
+    return (
+      <div>
+        Error: {error}
+        <Link to={-1}>regresar</Link>
+      </div>
+    );
   }
 
   if (!characterDetails) {
-    return <div>No se encontraron detalles del personaje.</div>;
-    <Link to={-1}>regresar</Link>
+    return (
+      <div>
+        No se encontraron detalles del personaje.
+        <Link to={-1}>regresar</Link>;
+      </div>
+    );
   }
 
   return (
-    <div className="p-4">
-      <h1 className="text-3xl font-bold mb-4">{characterDetails.name}</h1>
-      <p className="text-gray-600">{characterDetails.text}</p>
-      <p className="mt-2">{characterDetails.details}</p>
-      <p className="mt-2"><strong>Libro:</strong> {characterDetails.book}</p>
+    <div>
+      <Title name={characterDetails.name} book={characterDetails.book} />
+      <Introduction quote={characterDetails.introQuote} intro={characterDetails.introParagraph}/>
+      <KeyConcepts list={characterDetails.KeyConcepts}/>
+      <Extra items={characterDetails.extra}/>
       <Link to={-1}>regresar</Link>
     </div>
   );

@@ -1,20 +1,30 @@
 [
-    {
-      "name": "Eva",
-      "book": "oldTestament",
-      "text": "He was a prophet.",
-      "details": "John was known for his wisdom and leadership."
-    },
-    {
-      "name": "Jane",
-      "book": "newTestament",
-      "text": "She was a disciple.",
-      "details": "Jane played a key role in the early church."
-    },
-    {
-      "name": "Doe",
-      "book": "bookOfMormon",
-      "text": "A key figure in the Book of Mormon.",
-      "details": "Doe's contributions are significant to the faith."
-    }
-  ]
+  {
+    "name": "Eva",
+    "book": "Antiguo testamento",
+    "introQuote": "La madre de todos los vivientes",
+    "introParagraph": "blah blah blah blah",
+    "keyConcepts": [
+      "Concepto #1",
+      "Concepto #2",
+      "Concepto #3"
+    ],
+    "extra": [
+      {
+        "type": "link",
+        "link": "https://algúnsitio",
+        "text": ""
+      },
+      {
+        "type": "image",
+        "link": "url_to_image",
+        "text": "text"
+      },
+      {
+        "type": "quote",
+        "text": "Texto para la frase bien inspiradora",
+        "author": "author's name"
+      }
+    ]
+  }
+]
