@@ -7,7 +7,7 @@ import Details from "./components/Details";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/mujeres-escrituras/",
     element: <Home />,
   },
   {
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <ErrorPage />,
   },
   {
-    path: "/details/:characterName",
+    path: "/mujeres-escrituras//details/:characterName",
     element: <Details />,
   },
 ]);
