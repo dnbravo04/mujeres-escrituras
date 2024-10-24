@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default function Introduction() {
+export default function Introduction({reference,quote,intro}) {
   return (
-    <div>Introduction</div>
+    <div>
+      {reference}
+      {quote}
+      {intro}
+    </div>
   )
 }

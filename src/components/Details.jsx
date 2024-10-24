@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Title from "./details/Title";
-import KeyConcepts from "./details/KeyConcepts";
+import KeyList from "./details/KeyList";
 import Introduction from "./details/Introduction";
 import Extra from "./details/Extra";
 
@@ -57,16 +57,22 @@ const Details = () => {
       </div>
     );
   }
-
   return (
     <div>
       <Title name={characterDetails.name} book={characterDetails.book} />
-      <Introduction quote={characterDetails.introQuote} intro={characterDetails.introParagraph}/>
-      <KeyConcepts list={characterDetails.KeyConcepts}/>
-      <Extra items={characterDetails.extra}/>
+      <br />
+      <Introduction
+        reference={characterDetails.introReference}
+        quote={characterDetails.introQuote}
+        intro={characterDetails.introParagraph}
+      />
+      <br />
+      <KeyList list={characterDetails.keyConcepts} />
+      <br />
+      <Extra data={characterDetails.complementaryData} />
+      <br />
       <Link to={-1}>regresar</Link>
     </div>
   );
 };
-
 export default Details;

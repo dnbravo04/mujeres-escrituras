@@ -1,29 +1,63 @@
 [
   {
     "name": "Eva",
-    "book": "Antiguo testamento",
-    "introQuote": "La madre de todos los vivientes",
-    "introParagraph": "blah blah blah blah",
+    "book": "Antiguo Testamento / Perla de Gran Precio",
+    "introQuote": "Y Adán llamó Eva a su esposa, por cuanto ella fue la madre de todos los vivientes; porque así yo, Dios el Señor, he llamado a la primera de todas las mujeres, que son muchas.",
+    "introReference": "Moises 4:26 (Génesis 3:28)",
+    "introParagraph": "… como Su obra sublime y última creación, la culminación de Sus esfuerzos, [nuestro Padre Celestial] creó a la mujer. Me gusta considerar a Eva como Su obra maestra, después de todo lo que había creado, lo último que hizo antes de descansar de Sus labores",
     "keyConcepts": [
-      "Concepto #1",
-      "Concepto #2",
-      "Concepto #3"
+      "Moisés 3:15–5:12",
+      "Russell M. Nelson, “Lecciones que aprendemos de Eva”, Liahona, enero de 1988, págs. 85–90.",
+      "Gordon B. Hinckley, “Hijas de Dios”, Liahona, enero de 1992, págs. 109–112."
     ],
-    "extra": [
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=spa&span=3:15-5:12#p15",
+        "text": "Moisés 3:15–5:12"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "https://png.pngtree.com/png-clipart/20201224/ourmid/pngtree-panda-bamboo-bamboo-shoots-simple-strokes-cartoon-with-pictures-small-fresh-png-image_2625172.jpg",
+        "text": "text"
+      },
+      {
+        "type": "quote",
+        "text": "“… como Su obra sublime y última creación, la culminación de Sus esfuerzos, [nuestro Padre Celestial] creó a la mujer. Me gusta considerar a Eva como Su obra maestra, después de todo lo que había creado, lo último que hizo antes de descansar de Sus labores”",
+        "author": "Gordon B. Hinckley, “Hijas de Dios”, pág. 111)."
+      },
+      {
+        "type": "video",
+        "url": "url to video"
+      }
+    ]
+  },
+  {
+    "name": "Sara",
+    "book": "Antiguo Testamento",
+    "introQuote": "Dijo también Dios a Abraham: A Sarai, tu esposa, no la llamarás Sarai, mas Sara será su nombre. Y la bendeciré y también te daré de ella un hijo; sí, la bendeciré, y vendrá a ser madre de naciones; reyes de pueblos saldrán de ella.",
+    "introReference": "Génesis 17:15-16",
+    "introParagraph": "“Ciertamente nada es imposible para el Señor. Sus promesas se cumplen”",
+    "keyConcepts": [
+      "Moisés 3:15–5:12",
+      "Russell M. Nelson, “Lecciones que aprendemos de Eva”, Liahona, enero de 1988, págs. 85–90.",
+      "Gordon B. Hinckley, “Hijas de Dios”, Liahona, enero de 1992, págs. 109–112."
+    ],
+    "complementaryData": [
       {
         "type": "link",
         "link": "https://algúnsitio",
-        "text": ""
+        "text": "texto de pruebas"
       },
       {
-        "type": "image",
+        "type": "image-horizontal",
         "link": "url_to_image",
         "text": "text"
       },
       {
         "type": "quote",
         "text": "Texto para la frase bien inspiradora",
-        "author": "author's name"
+        "author": "Nombre del autor"
       }
     ]
   }
