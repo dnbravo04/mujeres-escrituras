@@ -13,18 +13,34 @@ export default function Extra({ data }) {
             return (
               <div key={index}>
                 <p>
-                  <strong>Entra tambien:</strong> <a className="underline" href={item.link}>{item.text}</a>
+                  <strong>Entra tambien:</strong>{" "}
+                  <a className="underline" href={item.link}>
+                    {item.text}
+                  </a>
                 </p>
               </div>
             );
 
           case "image-horizontal":
             return (
-              <div key={index} style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
-                <img src={item.url} alt={item.text} style={{ width: "100%", maxWidth: "400px" }} />
+              <div
+                key={index}
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={item.url}
+                  alt={item.text}
+                  style={{ width: "100%", maxWidth: "400px" }}
+                />
                 {item.text && <p>{item.text}</p>}
               </div>
             );
+          case "image-vertical":
+            return <></>;
 
           case "quote":
             return (
@@ -51,7 +67,11 @@ export default function Extra({ data }) {
             );
 
           default:
-            return <div key={index}><p>Unknown type</p></div>;
+            return (
+              <div key={index}>
+                <p>Unknown type</p>
+              </div>
+            );
         }
       })}
     </div>

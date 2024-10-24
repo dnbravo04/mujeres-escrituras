@@ -4,8 +4,10 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      playwrite: ["Playwrite GB S","serif"]
-    }
+      playwrite: ["Playwrite GB S", "serif"],
+      monserrat: ["Monserrat", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
+    },
   },
   plugins: [],
 };
