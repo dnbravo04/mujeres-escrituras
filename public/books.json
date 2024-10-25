@@ -2,21 +2,21 @@
     {
         "book": "oldTestament",
         "name": "Antiguo Testamento y Perla de gran precio",
-        "background": null
+        "background": "oldtestament"
     },
     {
         "book": "newTestament",
         "name": "Nuevo Testamento",
-        "background": null
+        "background": "newtestament"
     },
     {
         "book": "bookOfMormon",
         "name": "Libro de Mormón",
-        "background": null
+        "background": "bookofmormon"
     },
     {
         "book": "churchHistory",
         "name": "Doctrina y Convenios e Historia de la iglesia",
-        "background": null
+        "background": "churchhistory"
     }
 ]

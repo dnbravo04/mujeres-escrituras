@@ -1,3 +1,4 @@
+//fix image situation
 import React, { useState, useEffect } from "react";
 import { MainTitle } from "./home/MainTitle";
 import { Introduction } from "./home/Introduction";
@@ -6,26 +7,29 @@ import TestamentComponent from "./home/TestamentComponent";
 
 export const Home = () => {
   const [booksData, setBooksData] = useState([]);
+  const [booksList, setBooksList] = useState([]);
   const [loading, setLoading] = useState(true);
-
-  let books = {
-    oldTestament: "Antiguo Testamento",
-    newTestament: "Nuevo Testamento",
-    bookOfMormon: "Libro de Mormón",
-    churchHistory: "Historia de la Iglesia",
-  };
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/index.json");
-        if (!response.ok) {
+        const [booksResponse, charactersResponse] = await Promise.all([
+          fetch("/books.json"),
+          fetch("/index.json"),
+        ]);
+
+        if (!booksResponse.ok || !charactersResponse.ok) {
           throw new Error("Error al cargar los datos");
         }
-        const data = await response.json();
-        setBooksData(data);
+
+        const booksData = await booksResponse.json();
+        const charactersData = await charactersResponse.json();
+
+        setBooksList(booksData);
+        setBooksData(charactersData);
       } catch (error) {
-        console.error(error);
+        setError(error.message);
       } finally {
         setLoading(false);
       }
@@ -38,6 +42,10 @@ export const Home = () => {
     return <div>Cargando...</div>;
   }
 
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
   return (
     <div className="h-screen overflow-y-scroll snap-y snap-mandatory">
       <div className="h-screen snap-start">
@@ -46,17 +54,27 @@ export const Home = () => {
       <div className="h-screen snap-start">
         <Introduction />
       </div>
-      {Object.entries(books).map(([key, value]) => {
+      {booksList.map((book) => {
         const filteredCharacters = booksData.filter(
-          (character) => character.book === key
+          (character) => character.book === book.book
         );
+
         return (
-          <div key={key} className="h-screen snap-center flex flex-col">
-            <h2 className="text-2xl font-bold mb-4">{value}</h2>
+          <div
+            key={book.book}
+            className="h-screen snap-center grid grid-cols-2 grid-rows-1 place-items-center"
+          >
             <TestamentComponent characters={filteredCharacters} />
+            <div className="relative overflow-hidden bg-no-repeat bg-cover bg-center w-full">
+              <div className={`fixed inset-0 bg-cover bg-center bg-opacity-75 bg-${book.background}`}></div>
+              <h2 className="text-2xl text-center justify-center font-bold mb-4 font-playwrite">
+                {book.name}
+              </h2>
+            </div>
           </div>
         );
       })}
+
       <div className="h-screen snap-start">
         <Closure />
       </div>
