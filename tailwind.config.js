@@ -10,10 +10,12 @@ export default {
         oldtestament:
           "url('/src/assets/backgrounds/oldTestamentBackground.jpg')",
         newtestament:
-          "url('/src/assets/backgrounds/introductionBackground.jpg')",
-        bookofmormon: "",
-        churchhistory: "",
-        closure: "null",
+          "url('/src/assets/backgrounds/newTestamentBackground.jpeg')",
+        bookofmormon:
+          "url('/src/assets/backgrounds/bookOfMormonBackground.webp')",
+        churchhistory:
+          "url('/src/assets/backgrounds/churchHistoryBackground.webp')",
+        closure: "url('/src/assets/backgrounds/newTestamentBackground.jpg')",
       },
       fontFamily: {
         playwrite: ["Playwrite GB S", "serif"],
@@ -27,6 +29,9 @@ export default {
     "bg-introduction",
     "bg-oldtestament",
     "bg-newtestament",
+    "bg-bookofmormon",
+    "bg-churchhistory",
+    "bg-closure",
   ],
 
   plugins: [],
