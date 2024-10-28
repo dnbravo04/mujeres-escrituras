@@ -3,21 +3,21 @@
         "id": 1,
         "book": "oldTestament",
         "name": "Eva",
-        "image": "ruta de la image",
+        "image": "/src/assets/backgrounds/titleBackground.jpeg",
         "text": "Moisés 3:15–5:12"
     },
     {
         "id": 2,
         "book": "oldTestament",
         "name": "Sara",
-        "image": "ruta de la image",
+        "image": "url('/src/assets/backgrounds/titleBackground.jpeg')",
         "text": "Génesis 11–24"
     },
     {
         "id": 3,
         "book": "oldTestament",
         "name": "Rebeca",
-        "image": "ruta de la image",
+        "image": "url('/src/assets/backgrounds/titleBackground.jpeg')",
         "text": "Génesis 24–28"
     },
     {
