@@ -8,7 +8,7 @@ const TestamentComponent = ({ characters }) => {
         <Link
           to={`/details/${character.name}`}
           key={character.name}
-          className="bg-white shadow-md p-4 border border-gray-200"
+          className="bg-white shadow-md p-4 border border-gray-200 transition ease-in-out hover:-translate-y-1 hover:scale-15"
         >
           <div>
             <img src={character.image} className="rounded-full max-94 y-94"/>

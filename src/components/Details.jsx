@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Title from "./details/Title";
-import KeyList from "./details/KeyList";
+import KeyConcepts from "./details/KeyConcepts";
 import Introduction from "./details/Introduction";
-import Extra from "./details/Extra";
+import ComplementaryData from "./details/ComplementaryData";
 import Flowers from "../assets/svg/flowers-horizontalspring-composition-stroke-by-Vexels.svg?react"
 const Details = () => {
   const { characterName } = useParams();
@@ -68,13 +68,15 @@ const Details = () => {
         image={characterDetails.introImage}
       />
       <div className="m-full">
-      <Flowers className="mx-auto" width="300" />
+      <Flowers className="mx-auto m-12" height="100"/>
       </div>
-      <KeyList list={characterDetails.keyConcepts} />
+      <KeyConcepts list={characterDetails.keyConcepts} image={characterDetails.keyConceptsImage}/>
+      <Flowers className="mx-auto m-12" height="100"/>
+      <ComplementaryData data={characterDetails.complementaryData} />
       <br />
-      <Extra data={characterDetails.complementaryData} />
-      <br />
-      <Link to={-1}>regresar</Link>
+      <div className="p-6 flex-1 bg-gradient-to-br from-orange-800 to-amber-700 grid place-items-center">
+      <Link className="text-white font-monserrat text-2xl" to={-1}>Regresar</Link>
+      </div>
     </div>
   );
 };

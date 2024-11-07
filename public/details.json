@@ -2,23 +2,31 @@
   {
     "name": "Eva",
     "book": "Antiguo Testamento / Perla de Gran Precio",
-    "introImage": "path_to_image",
+    "introImage": "/src/assets/backgrounds/oldTestamentBackground.jpg",
     "introQuote": "Y Adán llamó Eva a su esposa, por cuanto ella fue la madre de todos los vivientes; porque así yo, Dios el Señor, he llamado a la primera de todas las mujeres, que son muchas.",
     "introReference": "Moises 4:26 (Génesis 3:28)",
     "introParagraph": "… como Su obra sublime y última creación, la culminación de Sus esfuerzos, [nuestro Padre Celestial] creó a la mujer. Me gusta considerar a Eva como Su obra maestra, después de todo lo que había creado, lo último que hizo antes de descansar de Sus labores",
+    "keyConceptsImage": "../src/assets/backgrounds/oldTestamentBackground.jpg",
     "keyConcepts": [
       {
-        "link": "",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=spa",
         "name": "Moisés 3:15–5:12",
-        "description": ""
+        "description": "Se narra la historia de la Creación, y de Adán y Eva"
       },
-      {"link": "",
-      "name": "Russell M. Nelson, “Lecciones que aprendemos de Eva”, Liahona, enero de 1988, págs. 85–90.",
-      "description": ""},
+      {
+        "link": "https://liahonasud.wordpress.com/wp-content/uploads/2012/07/01-liahona-enero-1988.pdf",
+        "name": "Russell M. Nelson, “Lecciones que aprendemos de Eva”, Liahona, enero de 1988, págs. 85–90.",
+        "description": "“A vosotras os corresponde procurar que el mundo cambie para bien. Todas sois vitales en el equipo del Señor... Mediante vuestra diversidad, fortaléceos en unión.”"
+      },
       {
         "link": "",
-        "name":"Gordon B. Hinckley, “Hijas de Dios”, Liahona, enero de 1992, págs. 109–112.",
-        "description":""
+        "name": "Gordon B. Hinckley, “Hijas de Dios”, Liahona, enero de 1992, págs. 109–112.",
+        "description": ""
+      },
+      {
+        "link": "",
+        "name": "Ceremonia de la Investidura en el templo",
+        "description": "Durante la presentación de los periodos de la creación, Elohim reafirma las palabras de Adán al confirmar el nombre de la primera mujer, Eva. Además de darnos una imagen de como era vivir en los primeros tiempos, el ver a Eva junto a Adán resistiendo las cuesionables enseñanzas de Lucifer esperando 'mensajeros del Padre' da como precedente el primer ejemplo de Fe y resilencia ante la falsa doctrina y las mentiras."
       }
     ],
     "complementaryData": [
@@ -33,19 +41,24 @@
         "text": "text"
       },
       {
+        "type": "image-vertical",
+        "url": "https://png.pngtree.com/png-clipart/20201224/ourmid/pngtree-panda-bamboo-bamboo-shoots-simple-strokes-cartoon-with-pictures-small-fresh-png-image_2625172.jpg",
+        "text": "text"
+      },
+      {
         "type": "quote",
-        "text": "“… como Su obra sublime y última creación, la culminación de Sus esfuerzos, [nuestro Padre Celestial] creó a la mujer. Me gusta considerar a Eva como Su obra maestra, después de todo lo que había creado, lo último que hizo antes de descansar de Sus labores”",
+        "text": "… como Su obra sublime y última creación, la culminación de Sus esfuerzos, [nuestro Padre Celestial] creó a la mujer. Me gusta considerar a Eva como Su obra maestra, después de todo lo que había creado, lo último que hizo antes de descansar de Sus labores",
         "author": "Gordon B. Hinckley, “Hijas de Dios”, pág. 111)."
       },
       {
         "type": "video",
-        "url": "url to video"
+        "url": "https://www.youtube.com/embed/xWcCTY2iot8?si=K-bhZOUvjXBPdgwN"
       }
     ]
   },
   {
     "name": "Sara",
-    "book": "Antiguo Testamento",
+    "book": "Antiguo Testamento / Perla de Gran Precio",
     "introQuote": "Dijo también Dios a Abraham: A Sarai, tu esposa, no la llamarás Sarai, mas Sara será su nombre. Y la bendeciré y también te daré de ella un hijo; sí, la bendeciré, y vendrá a ser madre de naciones; reyes de pueblos saldrán de ella.",
     "introReference": "Génesis 17:15-16",
     "introParagraph": "“Ciertamente nada es imposible para el Señor. Sus promesas se cumplen”",
