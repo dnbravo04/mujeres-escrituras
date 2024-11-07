@@ -2,13 +2,24 @@
   {
     "name": "Eva",
     "book": "Antiguo Testamento / Perla de Gran Precio",
+    "introImage": "path_to_image",
     "introQuote": "Y Adán llamó Eva a su esposa, por cuanto ella fue la madre de todos los vivientes; porque así yo, Dios el Señor, he llamado a la primera de todas las mujeres, que son muchas.",
     "introReference": "Moises 4:26 (Génesis 3:28)",
     "introParagraph": "… como Su obra sublime y última creación, la culminación de Sus esfuerzos, [nuestro Padre Celestial] creó a la mujer. Me gusta considerar a Eva como Su obra maestra, después de todo lo que había creado, lo último que hizo antes de descansar de Sus labores",
     "keyConcepts": [
-      "Moisés 3:15–5:12",
-      "Russell M. Nelson, “Lecciones que aprendemos de Eva”, Liahona, enero de 1988, págs. 85–90.",
-      "Gordon B. Hinckley, “Hijas de Dios”, Liahona, enero de 1992, págs. 109–112."
+      {
+        "link": "",
+        "name": "Moisés 3:15–5:12",
+        "description": ""
+      },
+      {"link": "",
+      "name": "Russell M. Nelson, “Lecciones que aprendemos de Eva”, Liahona, enero de 1988, págs. 85–90.",
+      "description": ""},
+      {
+        "link": "",
+        "name":"Gordon B. Hinckley, “Hijas de Dios”, Liahona, enero de 1992, págs. 109–112.",
+        "description":""
+      }
     ],
     "complementaryData": [
       {

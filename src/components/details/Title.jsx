@@ -1,10 +1,14 @@
 import React from "react";
 
-function Title({title, book }) {
+function Title({name, book }) {
   return (
-    <div>
-      {title}
+    <div className="bg-cyan-200 bg-fixed h-52 flex items-center justify-center flex-col">
+      <div className="font-playwrite text-5xl p-4">
+      {name}
+      </div >
+      <div className="font-poppins">
       {book}
+      </div>
     </div>
   );
 }

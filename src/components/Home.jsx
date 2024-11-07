@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MainTitle } from "./home/MainTitle";
 import { Introduction } from "./home/Introduction";
-import { Closure } from "./home/Closure";
 import TestamentComponent from "./home/TestamentComponent";
 import classNames from "classnames";
 
@@ -73,10 +72,6 @@ export const Home = () => {
           </section>
         );
       })}
-
-      <section className="h-screen snap-start">
-        <Closure />
-      </section>
-    </div>
+   </div>
   );
 };

@@ -9,7 +9,7 @@ export const MainTitle = () => {
             Mujeres de las Escrituras
           </h1>
           <br />
-          <h2 className="text-xl text-center justify-center text-slate-100">
+          <h2 className="text-xl text-center justify-center text-slate-100 font-poppins">
             La manifestación del amor de Dios a traves de poderosas mujeres
             <br /> y sus acontecimientos narrados en las escrituras.
           </h2>

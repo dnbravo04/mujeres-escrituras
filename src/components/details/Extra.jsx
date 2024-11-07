@@ -13,7 +13,7 @@ export default function Extra({ data }) {
             return (
               <div key={index}>
                 <p>
-                  <strong>Entra tambien:</strong>{" "}
+                  <strong>Esta información tambien puede ser util:</strong>{" "}
                   <a className="underline" href={item.link}>
                     {item.text}
                   </a>

@@ -4,7 +4,7 @@ import Title from "./details/Title";
 import KeyList from "./details/KeyList";
 import Introduction from "./details/Introduction";
 import Extra from "./details/Extra";
-
+import Flowers from "../assets/svg/flowers-horizontalspring-composition-stroke-by-Vexels.svg?react"
 const Details = () => {
   const { characterName } = useParams();
   const [characterDetails, setCharacterDetails] = useState(null);
@@ -52,7 +52,7 @@ const Details = () => {
   if (!characterDetails) {
     return (
       <div>
-        No se encontraron detalles del personaje.
+        No se encontraron detalles del personaje
         <Link to={-1}>regresar</Link>;
       </div>
     );
@@ -65,8 +65,11 @@ const Details = () => {
         reference={characterDetails.introReference}
         quote={characterDetails.introQuote}
         intro={characterDetails.introParagraph}
+        image={characterDetails.introImage}
       />
-      <br />
+      <div className="m-full">
+      <Flowers className="mx-auto" width="300" />
+      </div>
       <KeyList list={characterDetails.keyConcepts} />
       <br />
       <Extra data={characterDetails.complementaryData} />
