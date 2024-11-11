@@ -2,11 +2,11 @@
   {
     "name": "Eva",
     "book": "Antiguo Testamento / Perla de Gran Precio",
-    "introImage": "/src/assets/backgrounds/oldTestamentBackground.jpg",
+    "introImage": "/img/Eva/Eva1.jpg",
     "introQuote": "Y Adán llamó Eva a su esposa, por cuanto ella fue la madre de todos los vivientes; porque así yo, Dios el Señor, he llamado a la primera de todas las mujeres, que son muchas.",
     "introReference": "Moises 4:26 (Génesis 3:28)",
     "introParagraph": "… como Su obra sublime y última creación, la culminación de Sus esfuerzos, [nuestro Padre Celestial] creó a la mujer. Me gusta considerar a Eva como Su obra maestra, después de todo lo que había creado, lo último que hizo antes de descansar de Sus labores",
-    "keyConceptsImage": "../src/assets/backgrounds/oldTestamentBackground.jpg",
+    "keyConceptsImage": "/img/Eva/Eva2.jpg",
     "keyConcepts": [
       {
         "name": "Moisés 3:15–5:12",
@@ -25,13 +25,13 @@
       {
         "name": "Gordon B. Hinckley, “Hijas de Dios”",
         "description": "“Todos estamos aquí como parte de un plan divino diseñado por un Padre amoroso, quien está interesado en nuestra inmortalidad y vida eterna.”",
-        "link":"https://www.churchofjesuschrist.org/study/general-conference/1991/10/daughters-of-god?lang=spa",
+        "link": "https://www.churchofjesuschrist.org/study/general-conference/1991/10/daughters-of-god?lang=spa",
         "hasLink": true,
         "category": "Discursos de los Profetas"
       },
       {
         "name": "Ceremonia de la Investidura en el templo",
-        "description": "Durante la presentación de los periodos de la creación, Elohim reafirma las palabras de Adán al confirmar el nombre de la primera mujer, Eva. Además de darnos una imagen de como era vivir en los primeros tiempos, el ver a Eva junto a Adán resistiendo las cuesionables enseñanzas de Lucifer esperando 'mensajeros del Padre' da como precedente el primer ejemplo de Fe y resilencia ante la falsa doctrina y las mentiras.",
+        "description": "Al asistir constantemente al templo y participar de la ordenanza de la investidura, aprendemos que Eva, al igual que Adán, fueron la más amada de todas las creaciones hechas desde el principio de esta tierra.",
         "hasLink": false,
         "category": "Ordenanzas del Templo"
       }
@@ -44,13 +44,13 @@
       },
       {
         "type": "image-horizontal",
-        "url": "https://png.pngtree.com/png-clipart/20201224/ourmid/pngtree-panda-bamboo-bamboo-shoots-simple-strokes-cartoon-with-pictures-small-fresh-png-image_2625172.jpg",
-        "text": "text"
+        "url": "https://www.churchofjesuschrist.org/imgs/ed399791a65c11ed8e89eeeeac1ec38a9ac44378/full/500%2C/0/default",
+        "text": "La caida de Adán y Eva"
       },
       {
-        "type": "image-vertical",
-        "url": "https://png.pngtree.com/png-clipart/20201224/ourmid/pngtree-panda-bamboo-bamboo-shoots-simple-strokes-cartoon-with-pictures-small-fresh-png-image_2625172.jpg",
-        "text": "text"
+        "type": "image-horizontal",
+        "url": "https://www.churchofjesuschrist.org/imgs/1829d7f7163c2867561e75687dd7e78503967e03/full/500%2C/0/default",
+        "text": "Otra imagen de la caida, mostrando a Adán y a Eva como una pareja"
       },
       {
         "type": "quote",
@@ -66,39 +66,1163 @@
   {
     "name": "Sara",
     "book": "Antiguo Testamento / Perla de Gran Precio",
+    "introImage": "/img/Sara/Sara1.webp",
     "introQuote": "Dijo también Dios a Abraham: A Sarai, tu esposa, no la llamarás Sarai, mas Sara será su nombre. Y la bendeciré y también te daré de ella un hijo; sí, la bendeciré, y vendrá a ser madre de naciones; reyes de pueblos saldrán de ella.",
     "introReference": "Génesis 17:15-16",
     "introParagraph": "“Ciertamente nada es imposible para el Señor. Sus promesas se cumplen”",
+    "keyConceptsImage": "/img/Sara/Sara2.jpg",
     "keyConcepts": [
-      "Moisés 3:15–5:12",
-      "Russell M. Nelson, “Lecciones que aprendemos de Eva”, Liahona, enero de 1988, págs. 85–90.",
-      "Gordon B. Hinckley, “Hijas de Dios”, Liahona, enero de 1992, págs. 109–112."
+      {
+        "name": "Génesis 11–24",
+        "description": "Narra la vida de Abram, Sarai y su familia, quienes hacen convenio con el Señor y este les promete una descendencia numerosa",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=spa",
+        "hasLink": true,
+        "category": "Escrituras"
+      },
+      {
+        "name": "Abraham 1-2",
+        "description": "Escritos de Abraham, donde narra sus experiencias y las bendiciones del convenio que este hace con Dios.",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=spa",
+        "hasLink": true,
+        "category": "Escrituras"
+      },
+      {
+        "name": "Russell M. Nelson, “Porque nada hay imposible para Dios”",
+        "description": "“¿Cómo se puede lograr lo «imposible»? Aprended y obedeced las enseñanzas de Dios. Las Escrituras nos enseñan que tendremos ayuda de los cielos para cumplir cada deber impuesto por los cielos.”",
+        "link": "https://discursosud.com/2015/04/02/porque-nada-hay-imposible-para-dios/",
+        "hasLink": true,
+        "category": "Conferencia General"
+      },
+      {
+        "name": "Spencer J. Condie, “Reclamar las preciosas y grandísimas promesas”",
+        "description": "“El Señor hace promesas generosas y nos asegura de que Él no se apartará de esas promesas.”",
+        "link": "https://www.churchofjesuschrist.org/study/general-conference/2007/10/claim-the-exceeding-great-and-precious-promises?lang=spa",
+        "hasLink": true,
+        "category": "Conferencia General"
+      }
     ],
     "complementaryData": [
       {
         "type": "link",
-        "link": "https://algúnsitio",
-        "text": "texto de pruebas"
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=spa",
+        "text": "Genesis 17"
+      },
+      {
+        "type": "link",
+        "link": "https://www.churchofjesuschrist.org/study/manual/old-testament-stories-2022/abraham-and-sarah?lang=spa",
+        "text": "Relatos del Antiguo Testamento: Abraham y Sara"
       },
       {
         "type": "image-horizontal",
-        "link": "url_to_image",
-        "text": "text"
+        "link": "https://assets.churchofjesuschrist.org/9d/36/9d364e814c417d49f1ebb0199a7e327afd8af532/9d364e814c417d49f1ebb0199a7e327afd8af532.jpeg",
+        "text": "Como una prueba de Fe, se mandó a Abraham a sacrificar a ese unico hijo que tuvo con Sara. al final, un angel del Señor lo detuvo y viendo la fe de Abraham, nuevamente se ratificó el convenio hecho de tener una descendecia tan grande como las estrellas del cielo."
+      }
+    ]
+  },
+  {
+    "name": "Rebeca",
+    "book": "Antiguo Testamento",
+    "introImage": "https://www.churchofjesuschrist.org/imgs/0ef8fd6020a1bba5c329acb8aa9b60227be42d77/full/3840%2C/0/default",
+    "introQuote": "Sí, iré",
+    "introReference": "Génesis 24:58",
+    "introParagraph": "Si desarrollamos cualidades rectas ahora, estaremos preparados para la obra y las bendiciones que el Señor ha preparado para nosotros",
+    "keyConceptsImage": "https://www.churchofjesuschrist.org/imgs/caa885d57c14b185a7e9622617bfaf795e9fed17/full/500%2C/0/default",
+    "keyConcepts": [
+      {
+        "name": "Génesis 24-28",
+        "description": "Narra la historia de como Isaac, buscando una mujer virtuosa como esposa, encuentra a Rebeca, quien recibe las bendiciones del convenio de su Suegro",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=spa",
+        "hasLink": true,
+        "category": "Escrituras"
+      },
+      {
+        "name": "¡No seáis movidas!",
+        "description": "Sean firmes. Sean constantes. “Defiendan la verdad y la rectitud”. Sean testigos. Sean un estandarte para el mundo. Permanezcan en lugares santos.",
+        "link": "https://www.churchofjesuschrist.org/study/liahona/2013/05/general-young-women-meeting/be-not-moved?lang=spa",
+        "hasLink": true,
+        "category": "Conferencia General"
+      },
+      {
+        "name": "Somos creadores",
+        "description": "“Creemos hogares llenos de amor y de serenidad. Aliviemos el sufrimiento. Creemos perdurables testimonios de las verdades eternas tanto en nosotros mismos como en otras personas”",
+        "link": "https://www.churchofjesuschrist.org/study/general-conference/2000/04/we-are-creators?lang=spa",
+        "hasLink": true,
+        "category": "Conferencia General"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/gs/rebekah?lang=spa",
+        "text": "Guia para el estudio de las escrituras: Rebeca"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "https://www.iglesiadelpilar.com.ar/wp-content/uploads/que-nos-ensena-la-historia-de-rebeca.webp",
+        "text": "Rebeca dando de beber a los camellos del siervo de Abraham"
+      },
+      {
+        "type": "image-vertical",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBlxCywPNfM6kLwh51YXLzblkb_IiK-R9FbwiJtVmareKD9lGz7YBpmOJ-8VJmHnZK3X-DUNTMs30v3mYG5C0eofPoqbcKVB_ijEA47tTwXS8bUKXmP6XDiUs850UadcMbnxrD76ahf5Y/s1600/rebecca.jpg",
+        "text": "Rebeca en el pozo"
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/azv9rYaFufU?si=wfFg-a9_TfL2yJFC"
+      }
+    ]
+  },
+  {
+    "name": "Raquel y Lea",
+    "book": "Antiguo Testamento",
+    "introImage": "https://recordtvnetwork.r7.com/wp-content/uploads/2018/07/d6e6b465-b673-4f2a-a646-1219188e0646.jpg",
+    "introQuote": "‘… ahora pues, haz todo lo que Dios te ha dicho’",
+    "introReference": "Génesis 31:16",
+    "introParagraph": "El Señor recuerda a los fieles y los bendecirá en sus aflicciones",
+    "keyConceptsImage": "https://curiosidadesbiblicasdeimpacto.wordpress.com/wp-content/uploads/2014/06/lea-y-raquel.jpg",
+    "keyConcepts": [
+      {
+        "name": "Génesis 29-35",
+        "description": "Narración del encuentro de Jacob con Labán y su familia. Tambien como su nombre es cambiado a Israel y junto a Lea y Raquel tienen su familia.",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=spa",
+        "hasLink": true,
+        "category": "Escrituras"
+      },
+      {
+        "name": "Hermano, ya está decidido",
+        "description": "“Las promesas son como la luna llena; si no se guardan de inmediato, se esfuman día tras día”.",
+        "link": "https://www.churchofjesuschrist.org/study/liahona/2011/07/brother-im-committed?lang=spa",
+        "hasLink": true,
+        "category": "Liahona"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/gs/rachel?lang=spa",
+        "text": "Guia para el estudio de las escrituras: Raquel"
+      },
+      {
+        "type": "link",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/gs/leah?lang=spa",
+        "text": "Guia para el estudio de las escrituras: Lea"
+      },
+      {
+        "type": "image-horizontal",
+        "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzBHNlLrHw2M7UBP-MSoxABizYtfB3YWwqlw&s",
+        "text": "Tanto Lea como Raquel tenian una seria disputa debido a que se pensaba que Raquel era esteril y Lea le mofaba por ello"
+      }
+    ]
+  },
+  {
+    "name": "Rut y Noemí",
+    "book": "Antiguo Testamento",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
       },
       {
         "type": "quote",
-        "text": "Texto para la frase bien inspiradora",
-        "author": "Nombre del autor"
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Ana",
+    "book": "Antiguo Testamento",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
       },
       {
         "type": "quote",
-        "text": "Texto para la frase bien inspiradora",
-        "author": "Nombre del autor"
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Abigail",
+    "book": "Antiguo Testamento",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
       },
       {
         "type": "quote",
-        "text": "Texto para la frase bien inspiradora",
-        "author": "Nombre del autor"
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "La viuda de Sarepta",
+    "book": "Antiguo Testamento",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Ester",
+    "book": "Antiguo Testamento",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
+      }
+    ]
+  },
+  {
+    "name": "Nombre del personaje",
+    "book": "Libro o referencia específica",
+    "introImage": "Ruta a la imagen de introducción",
+    "introQuote": "Cita introductoria sobre el personaje",
+    "introReference": "Referencia de la cita introductoria",
+    "introParagraph": "Descripción o introducción sobre el personaje",
+    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "keyConcepts": [
+      {
+        "name": "Referencia o nombre del concepto clave",
+        "description": "Descripción del concepto",
+        "link": "Enlace si está disponible",
+        "hasLink": true,
+        "category": "Categoría (Escrituras, Discursos, etc.)"
+      }
+    ],
+    "complementaryData": [
+      {
+        "type": "link",
+        "link": "URL",
+        "text": "Texto de enlace"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "URL de imagen horizontal",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "image-vertical",
+        "url": "URL de imagen vertical",
+        "text": "Texto descriptivo"
+      },
+      {
+        "type": "quote",
+        "text": "Texto de la cita",
+        "author": "Autor de la cita"
+      },
+      {
+        "type": "video",
+        "url": "URL del video"
       }
     ]
   }

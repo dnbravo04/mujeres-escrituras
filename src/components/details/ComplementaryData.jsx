@@ -9,40 +9,61 @@ export default function ComplementaryData({ data }) {
     switch (item.type) {
       case "link":
         return (
-          <a href={item.link} target="_blank" rel="noopener noreferrer" className="underline text-stone-800">
+          <a
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline text-stone-800 hover:text-stone-600 transition-colors"
+          >
             {item.text}
           </a>
         );
       case "image-horizontal":
-      case "image-vertical":
         return (
-          <>
+          <div className="w-full max-w-lg mx-auto">
             <img
               src={item.url}
-              alt={item.text || "Imagen adicional"}
-              className={item.type === "image-horizontal" ? "w-full max-w-md" : "max-h-96"}
+              alt={item.text || "Imagen horizontal"}
+              className="w-full h-auto object-cover border border-stone-300 shadow-md"
             />
-            {item.text && <p className="text-stone-700 mt-2">{item.text}</p>}
-          </>
+            {item.text && (
+              <p className="text-stone-700 mt-2 text-center">{item.text}</p>
+            )}
+          </div>
+        );
+      case "image-vertical":
+        return (
+          <div className="w-full max-w-xs mx-auto">
+            <img
+              src={item.url}
+              alt={item.text || "Imagen vertical"}
+              className="w-full h-auto object-cover border border-stone-300 shadow-md"
+            />
+            {item.text && (
+              <p className="text-stone-700 mt-2 text-center">{item.text}</p>
+            )}
+          </div>
         );
       case "quote":
         return (
-          <blockquote className="text-stone-800 italic">
+          <>
+          <blockquote className="text-stone-800 italic border-l-4 border-stone-500 pl-4">
             <q className="font-semibold text-lg">{item.text}</q>
-            <p className="text-stone-600 mt-2">- {item.author}</p>
           </blockquote>
+            <p className="text-stone-600 mt-2">- {item.author}</p>
+          </>
         );
       case "video":
         return (
-          <iframe
-            width="100%"
-            height="315"
-            src={item.url}
-            title="Video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="w-full max-w-md"
-          ></iframe>
+          <div className="w-full max-w-lg mx-auto aspect-video">
+            <iframe
+              src={item.url}
+              title="Video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full border border-stone-300 shadow-md"
+            ></iframe>
+          </div>
         );
       default:
         return <p>Tipo desconocido</p>;
@@ -50,20 +71,17 @@ export default function ComplementaryData({ data }) {
   };
 
   return (
-    <section className="container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-poppins text-center font-bold text-stone-800 mb-8">
-        Recursos adicionales
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <section className="container mx-auto px-4 py-8 bg-stone-100 shadow-sm">
+      <ul className="space-y-6">
         {data.map((item, index) => (
-          <div
+          <li
             key={index}
-            className="bg-white shadow-lg border border-stone-300 p-6 transition-transform transform hover:scale-105"
+            className="bg-white border border-stone-300 p-6 shadow-lg rounded-none transition-transform transform hover:scale-105"
           >
             {renderContent(item)}
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }

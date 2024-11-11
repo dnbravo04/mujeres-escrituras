@@ -4,188 +4,215 @@
         "book": "oldTestament",
         "name": "Eva",
         "image": "/img/eva.jpeg",
-        "text": "Moisés 3:15–5:12"
+        "text": "Moisés 3:15–5:12",
+        "link": "eva"
     },
     {
         "id": 2,
         "book": "oldTestament",
         "name": "Sara",
         "image": "/img/Sara.jpg",
-        "text": "Génesis 11–24"
+        "text": "Génesis 11–24",
+        "link": "sara"
     },
     {
         "id": 3,
         "book": "oldTestament",
         "name": "Rebeca",
         "image": "/img/Rebeca.jpg",
-        "text": "Génesis 24–28"
+        "text": "Génesis 24–28",
+        "link": "rebeca"
     },
     {
         "id": 4,
         "book": "oldTestament",
         "name": "Raquel y Lea",
         "image": "/img/Lea-y-Raquel.jpg",
-        "text": "Génesis 29–35"
+        "text": "Génesis 29–35",
+        "link": "raquel-y-lea"
     },
     {
         "id": 5,
         "book": "oldTestament",
         "name": "Rut y Noemí",
         "image": "/img/Rut.jpg",
-        "text": "Rut 1–4"
+        "text": "Rut 1–4",
+        "link": "rut-y-noemi"
     },
     {
         "id": 6,
         "book": "oldTestament",
         "name": "Ana",
         "image": "/img/Ana.jpg",
-        "text": "1 Samuel 1–2."
+        "text": "1 Samuel 1–2.",
+        "link": "ana"
     },
     {
         "id": 7,
         "book": "oldTestament",
         "name": "Abigail",
         "image": "/img/Abigail.jpg",
-        "text": "1 Samuel 25:1–42"
+        "text": "1 Samuel 25:1–42",
+        "link": "abigail"
     },
     {
         "id": 8,
         "book": "oldTestament",
         "name": "La viuda de Sarepta",
         "image": "/img/viuda-de-sarepta.jpeg",
-        "text": "1 Reyes 17"
+        "text": "1 Reyes 17",
+        "link": "viuda-de-sarepta"
     },
     {
         "id": 9,
         "book": "oldTestament",
         "name": "Ester",
         "image": "/img/Esther.jpg",
-        "text": "Libro de Ester"
+        "text": "Libro de Ester",
+        "link": "ester"
     },
     {
         "id": 10,
         "book": "newTestament",
         "name": "María, la madre de Jesús",
         "image": "/img/Maria.jpg",
-        "text": "Mateo 1–2; Lucas 1–2; Juan 2:2–5; 19:25–27"
+        "text": "Mateo 1–2; Lucas 1–2; Juan 2:2–5; 19:25–27",
+        "link": "maria-madre"
     },
     {
         "id": 11,
         "book": "newTestament",
         "name": "Ana y Elisabet",
         "image": "/img/Ana-y-Elizabeth.jpg",
-        "text": "Lucas 1; 2:21–38"
+        "text": "Lucas 1; 2:21–38",
+        "link": "ana-y-elisabet"
     },
     {
         "id": 12,
         "book": "newTestament",
         "name": "La mujer junto al pozo",
         "image": "/img/mujer-pozo.jpg",
-        "text": "Juan 4:1–42"
+        "text": "Juan 4:1–42",
+        "link": "mujer-pozo"
     },
     {
         "id": 13,
         "book": "newTestament",
         "name": "María y Marta",
         "image": "/img/Maria-y-Marta.jpg",
-        "text": "Lucas 10:38–42; Juan 11:1–47; 12:2–8"
+        "text": "Lucas 10:38–42; Juan 11:1–47; 12:2–8",
+        "link": "maria-y-marta"
     },
     {
         "id": 14,
         "book": "newTestament",
         "name": "La mujer con flujo de sangre",
         "image": "/img/mujer-flujo.jpg",
-        "text": "Marcos 5:24–34"
+        "text": "Marcos 5:24–34",
+        "link": "mujer-flujo"
     },
     {
         "id": 15,
         "book": "newTestament",
         "name": "La mujer adúltera",
         "image": "/img/mujer-adultera.jpg",
-        "text": "Juan 8"
+        "text": "Juan 8",
+        "link": "mujer-adultera"
     },
     {
         "id": 16,
         "book": "newTestament",
         "name": "María Magdalena",
         "image": "/img/Maria-magdalena.jpg",
-        "text": "Lucas 8:1–3; 24:1–12; Juan 19:25; 20:1–18."
+        "text": "Lucas 8:1–3; 24:1–12; Juan 19:25; 20:1–18.",
+        "link": "maria-magdalena"
     },
     {
         "id": 17,
         "book": "newTestament",
         "name": "Tabita",
         "image": "/img/Tabita.jpeg",
-        "text": "Hechos 9:36–42"
+        "text": "Hechos 9:36–42",
+        "link": "tabita"
     },
     {
         "id": 18,
         "book": "bookOfMormon",
         "name": "Saríah",
         "image": "/img/Sariah.jpg",
-        "text": "1 Nefi 1:1; 2:1–5; 5:1–9; 8:14–16; 17:1–2, 55; 18:7, 17–19."
+        "text": "1 Nefi 1:1; 2:1–5; 5:1–9; 8:14–16; 17:1–2, 55; 18:7, 17–19.",
+        "link": "sariah"
     },
     {
         "id": 19,
         "book": "bookOfMormon",
         "name": "Abish",
         "image": "/img/abish.jpeg",
-        "text": "Alma 19:16–17, 28–29."
+        "text": "Alma 19:16–17, 28–29.",
+        "link": "abish"
     },
     {
         "id": 20,
         "book": "bookOfMormon",
         "name": "La esposa del rey Lamoni",
         "image": "/img/esposa-lamoni.jpg",
-        "text": "Alma 18:43–19:36"
+        "text": "Alma 18:43–19:36",
+        "link": "esposa-lamoni"
     },
     {
         "id": 21,
         "book": "bookOfMormon",
         "name": "Las madres de los jóvenes guerreros",
         "image": "/img/madre-jovenes-guerreros.jpg",
-        "text": "Alma 56:45–48; 57:21–26"
+        "text": "Alma 56:45–48; 57:21–26",
+        "link": "madres-jovenes-guerreros"
     },
     {
         "id": 22,
         "book": "churchHistory",
         "name": "Lucy Mack Smith",
         "image": "/img/Lucy_Mack_Smith.jpg",
-        "text": "José Smith—Historia 1:3–7, 20"
+        "text": "José Smith—Historia 1:3–7, 20",
+        "link": "lucy-mack-smith"
     },
     {
         "id": 23,
         "book": "churchHistory",
         "name": "Emma Hale Smith",
         "image": "/img/Emma-Hale.jpg",
-        "text": "Doctrina y Convenios 25"
+        "text": "Doctrina y Convenios 25",
+        "link": "emma-hale-smith"
     },
     {
         "id": 24,
         "book": "churchHistory",
         "name": "Vienna Jaques",
         "image": "/img/vienna-Jaques.jpg",
-        "text": "Doctrina y Convenios 90:28–31."
+        "text": "Doctrina y Convenios 90:28–31.",
+        "link": "vienna-jaques"
     },
     {
         "id": 25,
         "book": "churchHistory",
         "name": "Las viudas y las huérfanas",
         "image": "/img/jesus-hijo-viuda-naimjpg.jpg",
-        "text": "Doctrina y Convenios 83"
+        "text": "Doctrina y Convenios 83",
+        "link": "viudas-huerfanas"
     },
     {
         "id": 26,
         "book": "churchHistory",
         "name": "Las mujeres y el poder del sacerdocio",
         "image": "/img/llaves-sacerdocio.jpg",
-        "text": "Dallin H. Oaks, “Las llaves y la autoridad del sacerdocio”"
+        "text": "Dallin H. Oaks, “Las llaves y la autoridad del sacerdocio”",
+        "link": "mujeres-sacerdocio"
     },
     {
         "id": 27,
         "book": "churchHistory",
         "name": "Las mujeres de la Iglesia",
         "image": "/img/mujeres-iglesia.jpeg",
-        "text": "Gordon B. Hinckley, “Las mujeres de la Iglesia”"
+        "text": "Gordon B. Hinckley, “Las mujeres de la Iglesia”",
+        "link": "mujeres-iglesia"
     }
 ]

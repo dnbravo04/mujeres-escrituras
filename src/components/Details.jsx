@@ -4,7 +4,7 @@ import Title from "./details/Title";
 import KeyConcepts from "./details/KeyConcepts";
 import Introduction from "./details/Introduction";
 import ComplementaryData from "./details/ComplementaryData";
-import Flowers from "../assets/svg/flowers1.svg";
+import Flowers from "./../assets/svg/flowers1.svg";
 
 const Details = () => {
   const { characterName } = useParams();
@@ -51,7 +51,9 @@ const Details = () => {
   if (!characterDetails) {
     return (
       <div className="text-center mt-10">
-        <p className="text-stone-800">No se encontraron detalles del personaje</p>
+        <p className="text-stone-800">
+          No se encontraron detalles del personaje
+        </p>
         <Link to={-1} className="text-stone-800 underline mt-2 block">
           Regresar
         </Link>
@@ -61,6 +63,8 @@ const Details = () => {
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-8">
+      <div className="h-screen">
+
       <Title name={characterDetails.name} book={characterDetails.book} />
 
       <Introduction
@@ -68,18 +72,20 @@ const Details = () => {
         quote={characterDetails.introQuote}
         intro={characterDetails.introParagraph}
         image={characterDetails.introImage}
+        />
+        </div>
+
+      <h2 className="font-poppins font-bold text-center text-4xl text-stone-800 mb-10">
+        Conceptos clave
+      </h2>
+      <KeyConcepts
+        list={characterDetails.keyConcepts}
+        image={characterDetails.keyConceptsImage}
       />
 
-      <div className="flex justify-center my-6">
-        <Flowers height="100" className="mx-auto" />
-      </div>
-
-      <KeyConcepts list={characterDetails.keyConcepts} image={characterDetails.keyConceptsImage} />
-
-      <div className="flex justify-center my-6">
-        <Flowers height="100" className="mx-auto" />
-      </div>
-
+      <h2 className="text-3xl font-poppins text-center font-bold text-stone-800 mb-8">
+        Recursos adicionales
+      </h2>
       <ComplementaryData data={characterDetails.complementaryData} />
 
       <div className="p-6 bg-gradient-to-br from-orange-800 to-amber-700 flex justify-center mt-10">

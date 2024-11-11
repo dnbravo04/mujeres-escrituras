@@ -27,7 +27,7 @@ function KeyConcept({ name, description, link, hasLink, category }) {
       )}
       {category && (
         <div className="bg-stone-200 text-stone-700 text-xs uppercase font-medium py-1 px-3 border-t border-stone-300 mx-6 mb-4 mt-2 inline-block">
-          Categoría: {category}
+          {category}
         </div>
       )}
     </article>
@@ -36,10 +36,7 @@ function KeyConcept({ name, description, link, hasLink, category }) {
 
 export default function KeyConcepts({ list, image }) {
   return (
-    <section className="container mx-auto px-4 py-8">
-      <h2 className="font-poppins font-bold text-center text-4xl text-stone-800 mb-10">
-        Conceptos clave
-      </h2>
+    <section className="container mx-auto px-4 py-8 bg-stone-100 shadow-sm">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
           {list.length > 0 ? (
