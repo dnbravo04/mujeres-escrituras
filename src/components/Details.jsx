@@ -4,7 +4,7 @@ import Title from "./details/Title";
 import KeyConcepts from "./details/KeyConcepts";
 import Introduction from "./details/Introduction";
 import ComplementaryData from "./details/ComplementaryData";
-import Flowers from "../assets/svg/flowers-horizontalspring-composition-stroke-by-Vexels.svg?react";
+import Flowers from "../assets/svg/flowers1.svg";
 
 const Details = () => {
   const { characterName } = useParams();
