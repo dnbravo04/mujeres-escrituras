@@ -11,7 +11,7 @@ const TestamentComponent = ({ characters }) => {
           className="bg-white shadow-md p-4 border border-gray-200 transition ease-in-out hover:-translate-y-1 hover:scale-15"
         >
           <div>
-            <img src={character.image} className="rounded-full max-94 y-94"/>
+            <img src={character.image} className="rounded-full max-w-24"/>
           </div>
           <div className="text-xl font-semibold font-poppins mb-2">
             {character.name}

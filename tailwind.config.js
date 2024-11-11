@@ -19,6 +19,7 @@ export default {
       },
       fontFamily: {
         playwrite: ["Playwrite GB S", "serif"],
+        playwriteco:["Playwrite CO","serif"],
         monserrat: ["Monserrat", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
