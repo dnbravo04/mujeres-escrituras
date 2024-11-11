@@ -9,24 +9,31 @@
     "keyConceptsImage": "../src/assets/backgrounds/oldTestamentBackground.jpg",
     "keyConcepts": [
       {
-        "link": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=spa",
         "name": "Moisés 3:15–5:12",
-        "description": "Se narra la historia de la Creación, y de Adán y Eva"
+        "description": "Se narra la historia de la Creación, y de Adán y Eva",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=spa",
+        "hasLink": true,
+        "category": "Escrituras"
       },
       {
-        "link": "https://liahonasud.wordpress.com/wp-content/uploads/2012/07/01-liahona-enero-1988.pdf",
-        "name": "Russell M. Nelson, “Lecciones que aprendemos de Eva”, Liahona, enero de 1988, págs. 85–90.",
-        "description": "“A vosotras os corresponde procurar que el mundo cambie para bien. Todas sois vitales en el equipo del Señor... Mediante vuestra diversidad, fortaléceos en unión.”"
+        "name": "Russell M. Nelson, “Lecciones que aprendemos de Eva”",
+        "description": "“A vosotras os corresponde procurar que el mundo cambie para bien. Todas sois vitales en el equipo del Señor... Mediante vuestra diversidad, fortaléceos en unión.”",
+        "link": "https://www.churchofjesuschrist.org/bc/content/shared/content/english/pdf/service/serving-in-the-church/relief-society/RS-SG1-LessonsfromEve-spa.pdf",
+        "hasLink": true,
+        "category": "Manual"
       },
       {
-        "link": "",
-        "name": "Gordon B. Hinckley, “Hijas de Dios”, Liahona, enero de 1992, págs. 109–112.",
-        "description": ""
+        "name": "Gordon B. Hinckley, “Hijas de Dios”",
+        "description": "“Todos estamos aquí como parte de un plan divino diseñado por un Padre amoroso, quien está interesado en nuestra inmortalidad y vida eterna.”",
+        "link":"https://www.churchofjesuschrist.org/study/general-conference/1991/10/daughters-of-god?lang=spa",
+        "hasLink": true,
+        "category": "Discursos de los Profetas"
       },
       {
-        "link": "",
         "name": "Ceremonia de la Investidura en el templo",
-        "description": "Durante la presentación de los periodos de la creación, Elohim reafirma las palabras de Adán al confirmar el nombre de la primera mujer, Eva. Además de darnos una imagen de como era vivir en los primeros tiempos, el ver a Eva junto a Adán resistiendo las cuesionables enseñanzas de Lucifer esperando 'mensajeros del Padre' da como precedente el primer ejemplo de Fe y resilencia ante la falsa doctrina y las mentiras."
+        "description": "Durante la presentación de los periodos de la creación, Elohim reafirma las palabras de Adán al confirmar el nombre de la primera mujer, Eva. Además de darnos una imagen de como era vivir en los primeros tiempos, el ver a Eva junto a Adán resistiendo las cuesionables enseñanzas de Lucifer esperando 'mensajeros del Padre' da como precedente el primer ejemplo de Fe y resilencia ante la falsa doctrina y las mentiras.",
+        "hasLink": false,
+        "category": "Ordenanzas del Templo"
       }
     ],
     "complementaryData": [
@@ -77,6 +84,16 @@
         "type": "image-horizontal",
         "link": "url_to_image",
         "text": "text"
+      },
+      {
+        "type": "quote",
+        "text": "Texto para la frase bien inspiradora",
+        "author": "Nombre del autor"
+      },
+      {
+        "type": "quote",
+        "text": "Texto para la frase bien inspiradora",
+        "author": "Nombre del autor"
       },
       {
         "type": "quote",
