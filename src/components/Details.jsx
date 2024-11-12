@@ -63,7 +63,7 @@ const Details = () => {
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-8">
-      <div className="h-screen">
+      <div className="">
 
       <Title name={characterDetails.name} book={characterDetails.book} />
 

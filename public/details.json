@@ -217,88 +217,89 @@
   {
     "name": "Rut y Noemí",
     "book": "Antiguo Testamento",
-    "introImage": "Ruta a la imagen de introducción",
-    "introQuote": "Cita introductoria sobre el personaje",
-    "introReference": "Referencia de la cita introductoria",
-    "introParagraph": "Descripción o introducción sobre el personaje",
-    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "introImage": "https://www.churchofjesuschrist.org/imgs/69648189a2bafb32dfcacde5eb29da41e1596757/full/320%2C/0/default",
+    "introQuote": "No me ruegues que te deje y que me aparte de ti; porque adondequiera que tú fueres, iré yo, y dondequiera que vivieres, viviré. Tu pueblo será mi pueblo, y tu Dios mi Dios.",
+    "introReference": "Rut 1:16",
+    "introParagraph": "Cuando mostramos amor y amabilidad hacia otras personas, invitamos las bendiciones del Señor a nuestra vida",
+    "keyConceptsImage": "https://www.churchofjesuschrist.org/imgs/96e83f43bb57385e860c15ab16191c4c0461bee3/full/500%2C/0/default",
     "keyConcepts": [
       {
-        "name": "Referencia o nombre del concepto clave",
-        "description": "Descripción del concepto",
-        "link": "Enlace si está disponible",
+        "name": "Rut 1–4",
+        "description": "Narra la vida de Rut de Moab junto a su suegra, Noemi. Sus aflicciones y el como conoce a Booz, su nuevo esposo y bisabuelo del Rey David",
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/1?lang=spa",
         "hasLink": true,
-        "category": "Categoría (Escrituras, Discursos, etc.)"
+        "category": "Escrituras"
+      },
+      {
+        "name": "",
+        "description": "Si decidimos confiar en el Señor, Él nos premiará por nuestra fe",
+        "link": "",
+        "hasLink": false,
+        "category": "Principio doctrinal"
+      },
+      {
+        "name": "El vínculo de la Caridad (The Bond of Charity, recurso en inglés)",
+        "description": "No hay manera en la que podamos, o debieramos buscar, escapar de los retos y las aflicciones de la mortalidad. Cómo los enfrentamos es nuestra elección",
+        "link": "https://www.churchofjesuschrist.org/study/general-conference/1980/10/the-bond-of-charity?lang=eng&id=p1",
+        "hasLink": true,
+        "category": "Conferencia General"
       }
     ],
     "complementaryData": [
       {
         "type": "link",
-        "link": "URL",
-        "text": "Texto de enlace"
-      },
-      {
-        "type": "image-horizontal",
-        "url": "URL de imagen horizontal",
-        "text": "Texto descriptivo"
-      },
-      {
-        "type": "image-vertical",
-        "url": "URL de imagen vertical",
-        "text": "Texto descriptivo"
-      },
-      {
-        "type": "quote",
-        "text": "Texto de la cita",
-        "author": "Autor de la cita"
+        "link": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-ruth?lang=spa#p5",
+        "text": "Antiguo Testamento: Manual del maestro de seminario; Libro de Rut"
       },
       {
         "type": "video",
-        "url": "URL del video"
+        "url": "/img/Rut/rut1.mp4"
+      },
+      {
+        "type": "image-horizontal",
+        "url": "https://www.churchofjesuschrist.org/imgs/e06fcf7e98fe4c671f467e77a194092374bd9f96/full/%21500%2C/0/default",
+        "text": "Rut y Noemi"
       }
     ]
   },
   {
     "name": "Ana",
     "book": "Antiguo Testamento",
-    "introImage": "Ruta a la imagen de introducción",
-    "introQuote": "Cita introductoria sobre el personaje",
-    "introReference": "Referencia de la cita introductoria",
-    "introParagraph": "Descripción o introducción sobre el personaje",
-    "keyConceptsImage": "Ruta a la imagen de conceptos clave",
+    "introImage": "/img/Ana.jpg",
+    "introQuote": "Jehová de los ejércitos, si te dignas mirar la aflicción de tu sierva, y te acuerdas de mí y no te olvidas de tu sierva, y das a tu sierva un hijo varón, yo lo dedicaré a Jehová todos los días de su vida, y no pasará navaja sobre su cabeza.",
+    "introReference": "1 Samuel 1:11",
+    "introParagraph": "Cuando le pedimos al Señor que nos bendiga, debemos estar dispuestos a usar esas bendiciones para servirle",
+    "keyConceptsImage": "https://files.mormonsud.org/wp-content/uploads/2022/06/Lecciones-de-Ana-AT.png",
     "keyConcepts": [
       {
-        "name": "Referencia o nombre del concepto clave",
-        "description": "Descripción del concepto",
-        "link": "Enlace si está disponible",
+        "name": "Las madres que lo saben",
+        "description": "En la maternidad hay una influencia y un poder eternos.",
+        "link": "https://www.churchofjesuschrist.org/study/liahona/2007/11/mothers-who-know?lang=spa",
         "hasLink": true,
-        "category": "Categoría (Escrituras, Discursos, etc.)"
+        "category": "Conferencia General"
+      },
+      {
+        "name": "",
+        "description": "En la maternidad hay una influencia y un poder eternos.",
+        "link": "https://www.churchofjesuschrist.org/study/liahona/2007/11/mothers-who-know?lang=spa",
+        "hasLink": true,
+        "category": "Conferencia General"
       }
     ],
     "complementaryData": [
       {
         "type": "link",
-        "link": "URL",
-        "text": "Texto de enlace"
+        "link": "https://www.churchofjesuschrist.org/study/scriptures/gs/hannah?lang=spa#title1",
+        "text": "Guia para el estudio de las escrituras: Ana (Madre de Samuel)"
       },
       {
-        "type": "image-horizontal",
-        "url": "URL de imagen horizontal",
-        "text": "Texto descriptivo"
-      },
-      {
-        "type": "image-vertical",
-        "url": "URL de imagen vertical",
-        "text": "Texto descriptivo"
-      },
-      {
-        "type": "quote",
-        "text": "Texto de la cita",
-        "author": "Autor de la cita"
+        "type": "link",
+        "link": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-1-samuel/lesson-81-1-samuel-1-2?lang=spa",
+        "text": "Antiguo Testamento: Manual del maestro de seminario, Lección 81"
       },
       {
         "type": "video",
-        "url": "URL del video"
+        "url": "https://www.youtube.com/embed/cKMbFIpvKGo?si=7ePKM2OrMW9W-CJ7F"
       }
     ]
   },
